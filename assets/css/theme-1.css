@@ -12821,7 +12821,7 @@ textarea.form-control {
 .resume-section-heading {
   position: relative;
   padding-left: 1rem;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   letter-spacing: 0.15rem;
   color: #54B689
 }
@@ -12867,19 +12867,19 @@ a.resume-link:hover {
 }
 
 .resume-intro {
-  font-size: 0.875rem
-}
-
-.resume-main .item-title {
   font-size: 1rem
 }
 
+.resume-main .item-title {
+  font-size: 1.125rem
+}
+
 .resume-main .item-meta {
-  font-size: 0.75rem
+  font-size: 0.80rem
 }
 
 .resume-main .item-content {
-  font-size: 0.875rem
+  font-size: 1rem
 }
 
 .resume-aside {
