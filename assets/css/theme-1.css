@@ -65,6 +65,17 @@ hr:not([size]) {
   height: 1px
 }
 
+blockquote {
+    padding: 1rem 1.2rem;
+    background:
+    linear-gradient(to right, #54B689 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, #54B689 4px, transparent 4px) 100% 0,
+    linear-gradient(to bottom, #54B689 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, #54B689 4px, transparent 4px) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: .5rem;
@@ -195,7 +206,7 @@ sup {
 
 a {
   color: #54B689;
-  text-decoration: underline
+  text-decoration: none
 }
 
 a:hover {
@@ -516,26 +527,6 @@ progress {
 .initialism {
   font-size: .875em;
   text-transform: uppercase
-}
-
-.blockquote {
-  margin-bottom: 1rem;
-  font-size: 1.25rem
-}
-
-.blockquote>:last-child {
-  margin-bottom: 0
-}
-
-.blockquote-footer {
-  margin-top: -1rem;
-  margin-bottom: 1rem;
-  font-size: .875em;
-  color: #767676
-}
-
-.blockquote-footer::before {
-  content: "\2014\00A0"
 }
 
 .img-fluid {
@@ -9377,7 +9368,7 @@ textarea.form-control-lg {
   }
 
   .me-md-5 {
-    margin-right: 3rem !important
+    /* margin-right: 3rem !important */
   }
 
   .me-md-auto {
@@ -12851,7 +12842,7 @@ textarea.form-control {
 
 .resume-contact {
   border-left: 1px solid rgba(0, 0, 0, 0.08);
-  font-size: 0.75rem
+  font-size: 0.85rem
 }
 
 a.resume-link {
@@ -12863,7 +12854,7 @@ a.resume-link:hover {
 }
 
 .resume-profile-image {
-  max-width: 120px
+  max-width: 150px
 }
 
 .resume-intro {
@@ -12875,7 +12866,7 @@ a.resume-link:hover {
 }
 
 .resume-main .item-meta {
-  font-size: 0.80rem
+  font-size: 1rem
 }
 
 .resume-main .item-content {
