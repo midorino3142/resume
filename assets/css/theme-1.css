@@ -204,9 +204,38 @@ sup {
   top: -.5em
 }
 
-a {
+.target {
+	display: block;
+	position: relative;
+}
+
+.arrow {
+	position: absolute;
+	background: url(../svg/arrow_34.svg) no-repeat;
+	width: 35px;
+	height: 70px;
+	top: 0.5rem;
+	right: 7rem;
+  filter: invert(77%) sepia(6%) saturate(2884%) hue-rotate(100deg) brightness(82%) contrast(83%);
+  /* https://codepen.io/sosuke/pen/Pjoqqp */
+}
+
+ins {
+  text-decoration: none;
+  font-family: 'Caveat', cursive;
+  font-size: 1.3em;
   color: #54B689;
-  text-decoration: none
+  position:absolute;
+  transform:rotate(-10deg);
+  margin-left: -5rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+a {
+  /* color: #54B689; */
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
