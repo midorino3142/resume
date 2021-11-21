@@ -44,7 +44,7 @@
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.5;
   color: #292929;
@@ -215,7 +215,7 @@ sup {
 	width: 35px;
 	height: 70px;
 	top: 0.5rem;
-	right: 7rem;
+	right: 8rem;
   filter: invert(77%) sepia(6%) saturate(2884%) hue-rotate(100deg) brightness(82%) contrast(83%);
   /* https://codepen.io/sosuke/pen/Pjoqqp */
 }
@@ -632,7 +632,7 @@ progress {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: calc(var(--bs-gutter-y) * -1);
-  margin-right: calc(var(--bs-gutter-x) * -.5);
+  /* margin-right: calc(var(--bs-gutter-x) * -.5); */
   margin-left: calc(var(--bs-gutter-x) * -.5)
 }
 
@@ -10202,7 +10202,7 @@ textarea.form-control-lg {
   }
 
   .px-lg-4 {
-    padding-right: 1.5rem !important;
+    /* padding-right: 1.5rem !important; */
     padding-left: 1.5rem !important
   }
 
@@ -12865,13 +12865,13 @@ textarea.form-control {
 }
 
 .resume-tagline {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 300
 }
 
 .resume-contact {
   border-left: 1px solid rgba(0, 0, 0, 0.08);
-  font-size: 0.85rem
+  font-size: 1rem
 }
 
 a.resume-link {
@@ -12891,7 +12891,7 @@ a.resume-link:hover {
 }
 
 .resume-main .item-title {
-  font-size: 1.125rem
+  font-size: 1.15rem
 }
 
 .resume-main .item-meta {
@@ -12907,7 +12907,7 @@ a.resume-link:hover {
 }
 
 .resume-aside .item {
-  font-size: 0.875rem
+  font-size: 1rem
 }
 
 .resume-aside .item-title {
@@ -12922,12 +12922,16 @@ a.resume-link:hover {
   font-size: 0.75rem
 }
 
-.resume-lang-list, .resume-interests-list {
-  font-size: 0.875rem
+.resume-lang-list {
+  font-size: 1rem
+}
+
+.resume-interests-list {
+  font-size: 1rem
 }
 
 .resume-social-list {
-  font-size: 0.75rem
+  font-size: 0.9125rem
 }
 
 .blog-list .item .title {
